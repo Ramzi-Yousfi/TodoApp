@@ -1,16 +1,15 @@
 
 
-'
-
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import React  from 'react';
+import Form from './components/Form';
+import Items  from './components/Items';
 
 function App() {
-
-  }
-  
     return (
       <div>
-          {toggle ? <h1>True</h1> : <h1>False</h1>}
-        <button onClick={changeToggle}>Change state +  </button>
+        <h1 className="text-center mt-3">Todo-List</h1>
+        <Form />
       </div>
     )
 
