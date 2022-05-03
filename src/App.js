@@ -3,7 +3,7 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import React  from 'react';
 import Form from './components/Form';
-import Items  from './components/Items';
+
 
 function App() {
     return (
